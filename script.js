@@ -198,8 +198,8 @@ colors[1] = 'orange';
 console.log('Modified colors array:', colors);
 
 // Removal: removing an item from the array
-let removedColor = colors.pop();
-console.log('Removed color:', removedColor);
+let removedColorm = colors.pop();
+console.log('Removed color:', removedColorm);
 console.log('Remaining colors:', colors);
 
 // Object manipulation
@@ -246,23 +246,23 @@ function manipulateObject(obj) {
 }
 
 // Array manipulation
-let colors = ['red', 'green', 'blue', 'yellow'];
-console.log('First and last colors:', getFirstAndLast(colors));
+let myColors = ['red', 'green', 'blue', 'yellow'];
+console.log('First and last colors:', getFirstAndLast(myColors));
 
-let removedColor = manipulateArray(colors);
+let removedColor = manipulateArray(myColors);
 console.log('Removed color:', removedColor);
-console.log('Remaining colors:', colors);
+console.log('Remaining colors:', myColors);
 
 // Object manipulation
-let person = {
+let piolot = {
     name: 'Alice',
     age: 25,
     city: 'New York'
 };
-console.log('Original person:', person);
+console.log('Original person:', piolot);
 
-manipulateObject(person);
-console.log('Modified person:', person);
+manipulateObject(piolot);
+console.log('Modified person:', piolot);
 
 
 //Task 12: Program outputs processed data as described above. Partial credit will be earned depending on the level of adherence to the described behavior.
@@ -273,8 +273,3 @@ console.log('Modified person:', person);
 //-- Explenation: I am not able to find the path in git hub once I did the first commit so, I decided to finish writing the codes and I wil commit everything remaining with obersavation from someone whol will walk me through the process.
 
 // Include a README file that contains a description of your application. - Its already there in the github
-
-
-
-//https://github.com/Suresh2234/SBAjavaScriptFundamental.git
-
